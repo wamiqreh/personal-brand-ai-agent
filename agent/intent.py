@@ -3,7 +3,7 @@ Intent classification: determine what the user wants (e.g. resume Q&A, contact, 
 """
 
 
-def classify_intent(user_message: str) -> str:
+def v(user_message: str) -> str:
     """Return intent label for the given user message."""
     if not user_message or not user_message.strip():
         return "general"
