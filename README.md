@@ -1,4 +1,4 @@
-# AI Personal Brand Assistant
+# Personal Brand AI Agent
 
 Chat assistant that answers questions about your resume and personal brand using your own data.
 
@@ -33,7 +33,7 @@ Chat assistant that answers questions about your resume and personal brand using
 **Using uv (recommended):**
 
 ```bash
-# From the project root (ai-personal-brand-assistant)
+# From the project root (personal-brand-ai-agent)
 uv sync
 uv run python app.py
 ```
