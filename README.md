@@ -1,3 +1,9 @@
+---
+title: wamiq_rehman_personal_agent
+app_file: app.py
+sdk: gradio
+sdk_version: 6.5.1
+---
 # Personal Brand AI Agent
 
 An **AI-powered chat agent** that represents you on your personal site: it answers questions about your background using your resume, captures leads, and stays on-message using **RAG**, **intent-aware prompting**, and **LLM tool use**.
@@ -12,7 +18,7 @@ An **AI-powered chat agent** that represents you on your personal site: it answe
 - **LLM tool use (function calling)** — The agent can record contact details and log questions it couldn’t answer, with results sent to you via **Pushover** (or pluggable webhooks).
 - **Semantic retrieval** — Resume text is chunked, embedded with **OpenAI embeddings**, and retrieved by **cosine similarity** to the user’s question for accurate, context-aware answers.
 - **Clean agent architecture** — Single orchestration layer (controller) that runs intent → retrieval → prompt build → OpenAI chat loop with tools, so the pipeline is easy to reason about and extend.
-
+[Live Demo](https://huggingface.co/spaces/Wamiqreh/wamiq_rehman_personal_agent)
 ---
 
 ## Techniques & Architecture
