@@ -1,9 +1,3 @@
----
-title: wamiq_rehman_personal_agent
-app_file: app.py
-sdk: gradio
-sdk_version: 6.5.1
----
 # Personal Brand AI Agent
 
 An **AI-powered chat agent** that represents you on your personal site: it answers questions about your background using your resume, captures leads, and stays on-message using **RAG**, **intent-aware prompting**, and **LLM tool use**.
